@@ -1,0 +1,45 @@
+/*grid  box for Projects*/
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+gap : 10px;
+}
+
+.project-card{
+background-color: aquamarine;
+border-radius: 8px;
+padding : 10px;
+text-align:center;
+
+}
+
+.contact-box{
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding:10px
+}
+
+/*flexbox about me section*/
+.aboutme{
+    display: flex;
+    align-items:center;
+    gap:20px;
+
+}
+
+.aboutme-image{
+    border-radius:50%;
+    width:100px;
+
+}
+
+.resume-section{
+    position:static;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resume-section h2{
+    position:relative;
+}
